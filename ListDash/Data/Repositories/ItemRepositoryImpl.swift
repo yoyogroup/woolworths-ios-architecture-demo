@@ -2,15 +2,11 @@
 //  ItemRepositoryImpl.swift
 //  ListDash
 //
-//  Created by Gerald Oluoch on 15/05/25.
+//  Created by Islam Abd El-Rahiem on 22/05/2025.
 //
 
 import Foundation
 import Combine
-
-protocol ItemRepositoryProtocol {
-    func getItems() -> AnyPublisher<[ItemEntity], Error>
-}
 
 class ItemRepositoryImpl: ItemRepositoryProtocol {
     
